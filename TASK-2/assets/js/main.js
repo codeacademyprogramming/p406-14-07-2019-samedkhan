@@ -17,16 +17,16 @@ else{
 function showTime(){
     
     if(EndOfDate==3 || EndOfDate == 4){
-        console.log(`Bugün ayın ${InputDate} - dür`);
+        alert(`BUGÜN AYIN ${InputDate} - dür`);
     }
     else if(EndOfDate == 6){
-        console.log(`Bugün ayın ${InputDate} - dır`);
+        alert(`BUGÜN AYIN ${InputDate} - dır`);
     }
     else if(EndOfDate == 9 || EndOfDate == 10 || InputDate=="30"){
-        console.log(`Bugün ayın ${InputDate} - dur`);
+        alert(`BUGÜN AYIN ${InputDate} - dur`);
     }
     else{
-        console.log(`Bugün ayın ${InputDate} - dir`);
+        alert(`BUGÜN AYIN ${InputDate} - dir`);
     }
 
 }
